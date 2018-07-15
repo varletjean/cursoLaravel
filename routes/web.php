@@ -26,3 +26,6 @@ Route::post('/contato', ['uses'=>'ContatoController@salvar']
 
 Route::get('/teste', ['uses'=>'controllerTeste@index']
 );
+
+Route::get('/imovel', ['uses'=>'ImovelController@index']
+);
